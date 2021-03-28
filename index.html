@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Liyest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <!--    stylesheets-->
+    <!-- Link Swiper's CSS -->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!--    stylesheets-->
 
@@ -46,13 +48,123 @@
         }
 
     </style>
-
     <!--    scrollbar-->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- Demo styles -->
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+        }
+
+        .swiper-container-products {
+            width: 100%;
+            height: 100%;
+        }
+        .productscontainer{
+            position: relative;
+            height: 200px;
+            padding: 20px;
+            background-color: red;
+        }
+        .swiper-slide-products {
+            text-align: center;
+            margin: 20px;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </div>
+    </div>
+</nav>
 
+<div class="container">
+    <div class="row" id="brandlogo">
+
+    </div>
+    <div class="row" style="height: 200px;">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"
+                     style="background-image:url(https://swiperjs.com/demos/images/nature-1.jpg)"></div>
+                <div class="swiper-slide"
+                     style="background-image:url(https://swiperjs.com/demos/images/nature-2.jpg)"></div>
+                <div class="swiper-slide"
+                     style="background-image:url(https://swiperjs.com/demos/images/nature-3.jpg)"></div>
+                <div class="swiper-slide"
+                     style="background-image:url(https://swiperjs.com/demos/images/nature-4.jpg)"></div>
+                <div class="swiper-slide"
+                     style="background-image:url(https://swiperjs.com/demos/images/nature-5.jpg)"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination-white"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <iframe id="productsiframe" src="test.html" frameborder="0" style="height:500px;width: 100%"></iframe>
+    </div>
+    <br>
+    <br>
+    <br>
 </div>
+
+<!--<div class="productscontainer">-->
+<!--    &lt;!&ndash; Swiper &ndash;&gt;-->
+<!--    <div class="swiper-container-products">-->
+<!--        <div class="swiper-wrapper">-->
+<!--            <div class="swiper-slide-products">Slide 1</div>-->
+<!--            <div class="swiper-slide-products">Slide 2</div>-->
+<!--            <div class="swiper-slide-products">Slide 3</div>-->
+<!--            <div class="swiper-slide-products">Slide 4</div>-->
+<!--            <div class="swiper-slide-products">Slide 5</div>-->
+<!--            <div class="swiper-slide-products">Slide 6</div>-->
+<!--            <div class="swiper-slide-products">Slide 7</div>-->
+<!--            <div class="swiper-slide-products">Slide 8</div>-->
+<!--            <div class="swiper-slide-products">Slide 9</div>-->
+<!--            <div class="swiper-slide-products">Slide 10</div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 <!--js files-->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -70,6 +182,61 @@
 
 <script>
     AOS.init();
+</script>
+
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiperproducts = new Swiper('.swiper-container-products', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        effect: 'fade',
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
+</script>
+
+<script>
+    // Selecting the iframe element
+    var frame = document.getElementById("productsiframe");
+
+    // Adjusting the iframe height onload event
+    frame.onload = function()
+        // function execute while load the iframe
+    {
+        // set the height of the iframe as
+        // the height of the iframe content
+        frame.style.height =
+            frame.contentWindow.document.body.scrollHeight + 'px';
+
+
+        // set the width of the iframe as the
+        // width of the iframe content
+        frame.style.width  =
+            frame.contentWindow.document.body.scrollWidth+'px';
+
+    }
 </script>
 <!--js files-->
 </body>

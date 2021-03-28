@@ -1,4 +1,4 @@
-var app = document.getElementById('bannertext');
+var app = document.getElementById('brandlogo');
 
 var typewriter = new Typewriter(app, {
     loop: true,
@@ -8,12 +8,13 @@ var typewriter = new Typewriter(app, {
 
 typewriter
     .pauseFor(1000)
-    .typeString('Hi! I am, <strong>Rajinderpal Singh</strong>')
-    .pauseFor(1000)
-    .deleteChars(17)
-    .typeString('<strong style="font-size: 23px;">Top Contributor</strong> of Winter of Code,2020')
-    .pauseFor(1000)
-    .deleteChars(38)
-    .typeString('<strong style="font-size: 23px;">Project Admin</strong>/Mentor GSSOC\'21')
+    .typeString('Lityest')
+    .pauseFor(2000)
+    .deleteChars(7)
+    // .typeString('Persona<strong>lity</strong> + Inter<strong>est</strong>')
+    // .pauseFor(1000)
+    // .deleteChars(22)
+    .typeString('Initiative to help Society')
     .pauseFor(1000)
     .start();
+

@@ -1,0 +1,27 @@
+html{
+    position: relative;
+}
+.stopwrap {
+    white-space: nowrap !important;
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.product{
+}
+.productsimg{
+    height: 80vh;
+}
+.productname{
+    display: inline-block;
+    alignment: left;
+}
+.productprice{
+    display: inline-block;
+}
+.makeinline{
+    display: inline-block !important;
+}

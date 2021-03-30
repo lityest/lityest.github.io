@@ -23,14 +23,23 @@
 }
 html,body{
     overflow-x: hidden !important;
+    overflow-y:scroll!important;
 }
 .store {
     width: 100%;
     margin: 0 auto;
 }
+/*.container{*/
+/*    margin:1px !important;*/
+/*    padding-right: 0 !important;*/
+/*    padding-left: 0 !important;*/
+/*    margin-left: 0 !important;*/
+/*    margin-right: 0 !important;*/
+/*}*/
+
 .latest {
+    margin-top: 30px;
     width: 100%;
-    margin: 0 auto;
 }
 .latest div img{
     width: 100%;
@@ -41,12 +50,14 @@ html,body{
 }
 .mainheading{
     font-size: 4vw;
-    font-family: fontregular;
+    font-family: fontitalic;
+    color:var(--appwhite);
 }
 .mainheading span{
     font-weight: bold;
     font-size: 5vw;
-    font-family: fontitalic;
+    font-family: fontbolditalic;
+    color:var(--appwhite);
 }
 footer{
     position: relative;
@@ -104,4 +115,51 @@ nav{
     color: var(--appwhite);
     font-family: fontbolditalic;
     font-size: 20px;
+}
+.member{
+
+}
+.memberimg{
+    height:10vw;
+    border-radius: 50%;
+}
+.membername{
+    font-family: fontregular;
+    font-size: 30px;
+    color:var(--appwhite);
+}
+.memberdesignation{
+    font-family: fontitalic;
+    font-size: 20px;
+    color:grey;
+}
+.form-control{
+    margin-top:10px;
+    border-radius: 30px;
+    width: 50% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.btn{
+    border-radius: 30px !important;
+}
+.seeworking{
+    width:100%;
+    color:#343a40;
+    background-color: #d7b6fd;
+    position: relative;
+    transition:0.2s;
+}
+.seeworking:hover{
+    background-color: #343a40;
+    color:#d7b6fd;
+    text-shadow: 5px 4px 3px rgba(243, 242, 182,0.6);
+    font-size: 18px;
+    cursor:pointer;
+    transition: 0.2s;
+}
+.socialhandles{
+    height:200px;
+    width: 50px;
 }

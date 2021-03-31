@@ -1,16 +1,20 @@
-<!doctype html>
-<html lang="en">
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liyest</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <script>document.getElementsByTagName("html")[0].className += " js";</script>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--    stylesheets-->
-    <!-- Link Swiper's CSS -->
-    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <meta name="description" content="We are lityest" />
+    <meta name="keywords" content="css transforms, circular navigation, round navigation, circular menu, tutorial" />
+
+    <link rel="stylesheet" type="text/css" href="css/component1.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -54,258 +58,242 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        function loaderhide(){
+            var body=document.getElementsByTagName('body');
+            var el=document.querySelector('.loader');
+            body[0].removeChild(el);
+        }
+
+    </script>
 </head>
-<body>
-<div class="bg-dark">
-    <main class="cd-main">
-        <div class="cd-main__content">
-
-            <div class="container max-width-xs">
-                <div class="latest">
-                    <div>
-                        <img src="12.gif"/>
-                    </div>
-                    <div>
-                        <img src="15.gif"/>
-                    </div>
-                    <div>
-                        <img src="13.gif"/>
-                    </div>
-                    <div>
-                        <img src="14.gif"/>
-                    </div>
-                    <div>
-                        <img src="13.gif"/>
-                    </div>
-                    <div>
-                        <img src="15.gif"/>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <div class="text-center">
-                    <div class="mainheading"><span>M</span>erch <span>S</span>tore</div>
-                </div>
-                <div class="store">
-                    <div>
-                        <div class="products">
-                            <div style="margin-left: auto;margin-right: auto;"><img class="productimg"
-                                                                                    src="images/shirt.png" alt=""></div>
-                            <div class="text-center">
-                                <div class="productname">Shirt</div>
-                            </div>
-                            <div class="dropdown-divider"></div>
-                            <div style="position: relative;">
-                                <div class="productcategory">MENS</div>
-                                <div class="productprice">300</div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div>
-                        <div class="products">
-                            <div style="margin-left: auto;margin-right: auto;"><img class="productimg"
-                                                                                    src="images/shirt.png" alt=""></div>
-                            <div class="text-center">
-                                <div class="productname">Shirt</div>
-                            </div>
-                            <div class="dropdown-divider"></div>
-                            <div style="position: relative;">
-                                <div class="productcategory">MENS</div>
-                                <div class="productprice">300</div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div>
-                        <div class="products">
-                            <div style="margin-left: auto;margin-right: auto;"><img class="productimg"
-                                                                                    src="images/shirt.png" alt=""></div>
-                            <div class="text-center">
-                                <div class="productname">Shirt</div>
-                            </div>
-                            <div class="dropdown-divider"></div>
-                            <div style="position: relative;">
-                                <div class="productcategory">MENS</div>
-                                <div class="productprice">300</div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div>
-                        <div class="products">
-                            <div style="margin-left: auto;margin-right: auto;"><img class="productimg"
-                                                                                    src="images/shirt.png" alt=""></div>
-                            <div class="text-center">
-                                <div class="productname">Shirt</div>
-                            </div>
-                            <div class="dropdown-divider"></div>
-                            <div style="position: relative;">
-                                <div class="productcategory">MENS</div>
-                                <div class="productprice">300</div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div>
-                        <div class="products">
-                            <div style="margin-left: auto;margin-right: auto;"><img class="productimg"
-                                                                                    src="images/shirt.png" alt=""></div>
-                            <div class="text-center">
-                                <div class="productname">Shirt</div>
-                            </div>
-                            <div class="dropdown-divider"></div>
-                            <div style="position: relative;">
-                                <div class="productcategory">MENS</div>
-                                <div class="productprice">300</div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div>
-                        <div class="products">
-                            <div style="margin-left: auto;margin-right: auto;"><img class="productimg"
-                                                                                    src="images/shirt.png" alt=""></div>
-                            <div class="text-center">
-                                <div class="productname">Shirt</div>
-                            </div>
-                            <div class="dropdown-divider"></div>
-                            <div style="position: relative;">
-                                <div class="productcategory">MENS</div>
-                                <div class="productprice">300</div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="text-center">
-                            <img src="images/nature-4.jpg" alt="" class="seeworking socialhandles">
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-
-                    </div>
-                    <div class="col-md-3">
-
-                    </div>
-                    <div class="col-md-3">
-
-                    </div>
-                </div>
-                <br>
-                <br>
-
-                <div class="text-center">
-                    <div class="mainheading"><span>O</span>ur <span>T</span>eam</div>
-                </div>
-                <div class="text-center">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="text-center">
-                                <div class="member">
-                                    <img class="memberimg" src="images/nature-4.jpg" alt="">
-                                    <div class="membername">Namesdkskddskdj</div>
-                                    <div class="memberdesignation">Founder</div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-md-4">
-                            <div class="text-center">
-                                <div class="member">
-                                    <img class="memberimg" src="images/nature-4.jpg" alt="">
-                                    <div class="membername">Namesdkskddskdj</div>
-                                    <div class="memberdesignation">Founder</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="text-center">
-                                <div class="member">
-                                    <img class="memberimg" src="images/nature-4.jpg" alt="">
-                                    <div class="membername">Namesdkskddskdj</div>
-                                    <div class="memberdesignation">Founder</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <div class="text-center">
-                    <div class="mainheading"><span>M</span>ailing <span>L</span>ist</div>
-                </div>
-                <div class="text-center">
-                    <div class="text-center" style="color: var(--appwhite);">
-                        KEEP UP TO DATE WITH OUR EVENTS
-                    </div>
-
-                    <div class="text-center">
-                        <input type="email" class="form-control" placeholder="E-mail">
-                        <button type="button" class="btn btn-outline-light">Subscribe</button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </main> <!-- .cd-main -->
+<body class="bg-dark" onload="loaderhide();">
+<div class="loader">
+    <div class="lds-ripple">
+        <div></div>
+        <div></div>
+    </div>
 </div>
 
+<div class="latest">
+    <div>
+        <img src="images/12.gif"/>
+    </div>
+    <div>
+        <img src="images/15.gif"/>
+    </div>
+    <div>
+        <img src="images/13.gif"/>
+    </div>
+    <div>
+        <img src="images/14.gif"/>
+    </div>
+    <div>
+        <img src="images/13.gif"/>
+    </div>
+    <div>
+        <img src="images/15.gif"/>
+    </div>
+</div>
+<div class="container">
+    <br>
+    <br>
+    <div id="store">
+        <div class="text-center">
+            <div class="mainheading"><span>M</span>erch <span>S</span>tore</div>
+        </div>
+        <div class="store">
+            <div>
+                <div class="products">
+                    <div style="margin-left: auto;margin-right: auto;"><img class="productimg" src="images/store/hoodie.png" alt=""></div>
+                    <div class="text-center">
+                        <div class="productname">Shirt</div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div style="position: relative;">
+                        <div class="productcategory">MENS</div>
+                        <div class="productprice">300</div>
+                    </div>
 
-<a href="#cd-nav" class="cd-nav-trigger js-cd-nav-trigger text-replace">
-    Menu
-    <span class="cd-nav-trigger__icon" aria-hidden="true"></span>
-
-    <svg viewBox="0 0 54 54" aria-hidden="true">
-        <circle fill="transparent" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157"
-                stroke-dashoffset="157"></circle>
-    </svg>
-</a>
-
-<div id="cd-nav" class="cd-nav">
-    <div class="cd-nav__content">
-        <div class="container max-width-sm">
-            <h2 class="cd-nav__title">Navigation</h2>
-
-            <div class="grid">
-                <div class="col-6@md">
-                    <nav>
-                        <ul class="cd-nav__primary">
-                            <li><a href="#0" class="cd-nav__link cd-nav__link-selected">The team</a></li>
-                            <li><a href="#0" class="cd-nav__link">Our services</a></li>
-                            <li><a href="#0" class="cd-nav__link">Our projects</a></li>
-                            <li><a href="#0" class="cd-nav__link">Start a project</a></li>
-                            <li><a href="#0" class="cd-nav__link">Contact us</a></li>
-                        </ul>
-                    </nav>
                 </div>
+            </div>
+            <div>
+                <div class="products">
+                    <div style="margin-left: auto;margin-right: auto;"><img class="productimg" src="images/store/hoodiebrown.png" alt=""></div>
+                    <div class="text-center">
+                        <div class="productname">Shirt</div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div style="position: relative;">
+                        <div class="productcategory">MENS</div>
+                        <div class="productprice">300</div>
+                    </div>
 
-                <div class="col-6@md">
-                    <address>
-                        <ul class="cd-nav__contact">
-                            <li><a href="mailto:info@myemail.co">info@myemail.co</a></li>
-                            <li>0244-12345678</li>
-                            <li>
-                                <p>
-                                    MyStreetName 24
-                                    <br>W1234X
-                                    <br>London, UK
-                                </p>
-                            </li>
-                        </ul>
-                    </address>
+                </div>
+            </div>
+            <div>
+                <div class="products">
+                    <div style="margin-left: auto;margin-right: auto;"><img class="productimg" src="images/store/tshirt%20grey.png" alt=""></div>
+                    <div class="text-center">
+                        <div class="productname">Shirt</div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div style="position: relative;">
+                        <div class="productcategory">MENS</div>
+                        <div class="productprice">300</div>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <div class="products">
+                    <div style="margin-left: auto;margin-right: auto;"><img class="productimg" src="images/store/tshirtwhite.png" alt=""></div>
+                    <div class="text-center">
+                        <div class="productname">Shirt</div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div style="position: relative;">
+                        <div class="productcategory">MENS</div>
+                        <div class="productprice">300</div>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <div class="products">
+                    <div style="margin-left: auto;margin-right: auto;"><img class="productimg" src="images/store/tshirtblack.png" alt=""></div>
+                    <div class="text-center">
+                        <div class="productname">Shirt</div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div style="position: relative;">
+                        <div class="productcategory">MENS</div>
+                        <div class="productprice">300</div>
+                    </div>
+
                 </div>
             </div>
         </div>
-    </div> <!-- .cd-nav__content -->
-</div> <!-- .cd-nav -->
-<script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
-<script src="assets/js/main.js"></script>
-<!--js files-->
+    </div>
+
+    <br>
+    <br>
+    <div id="socialhandles">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="text-center">
+                    <img src="images/nature-4.jpg" alt="" class="seeworking socialhandles">
+                </div>
+            </div>
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-3">
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="youtubevideos">
+        <div class="ytvideos-for">
+            <div><img src="images/thumbnail/ds%20vs%20dv.jpg" alt=""></div>
+            <div><img src="images/thumbnail/first%20programming%20lang.jpg" alt=""></div>
+            <div><img src="images/thumbnail/best%20ide.jpg" alt=""></div>
+            <div><img src="images/thumbnail/getting%20started%20with%20github.jpg" alt=""></div>
+            <div><img src="images/thumbnail/learn%20git%20and%20github.jpg" alt=""></div>
+        </div>
+        <div class="ytvideos-nav">
+            <div><img src="images/thumbnail/ds%20vs%20dv.jpg" alt=""></div>
+            <div><img src="images/thumbnail/first%20programming%20lang.jpg" alt=""></div>
+            <div><img src="images/thumbnail/best%20ide.jpg" alt=""></div>
+            <div><img src="images/thumbnail/getting%20started%20with%20github.jpg" alt=""></div>
+            <div><img src="images/thumbnail/learn%20git%20and%20github.jpg" alt=""></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="ourteam">
+        <div class="text-center">
+            <div class="mainheading"><span>O</span>ur <span>T</span>eam</div>
+        </div>
+        <div class="text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="member">
+                            <img class="memberimg" src="images/nature-4.jpg" alt="">
+                            <div class="membername">Namesdkskddskdj</div>
+                            <div class="memberdesignation">Founder</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="member">
+                            <img class="memberimg" src="images/nature-4.jpg" alt="">
+                            <div class="membername">Namesdkskddskdj</div>
+                            <div class="memberdesignation">Founder</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="member">
+                            <img class="memberimg" src="images/nature-4.jpg" alt="">
+                            <div class="membername">Namesdkskddskdj</div>
+                            <div class="memberdesignation">Founder</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <div id="mailinglist">
+        <div class="text-center">
+            <div class="mainheading"><span>M</span>ailing <span>L</span>ist</div>
+        </div>
+        <div class="text-center">
+            <div class="text-center" style="color: var(--appwhite);">
+                KEEP UP TO DATE WITH OUR EVENTS
+            </div>
+
+            <div class="text-center">
+                <input type="email" class="form-control" placeholder="E-mail">
+                <button type="button" class="btn btn-outline-light">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="component">
+        <!-- Start Nav Structure -->
+        <button class="cn-button" id="cn-button">+</button>
+        <div class="cn-wrapper" id="cn-wrapper">
+            <ul>
+                <li><a href="#"><span class="fa fa-house-user"></span></a></li>
+                <li><a href="#"><span class="icon-headphones"></span></a></li>
+                <li><a href="#"><span class="icon-home"></span></a></li>
+                <li><a href="#"><span class="icon-facetime-video"></span></a></li>
+                <li><a href="#"><span class="icon-envelope-alt"></span></a></li>
+            </ul>
+        </div>
+        <div id="cn-overlay" class="cn-overlay"></div>
+        <!-- End Nav Structure -->
+    </div>
+
+</div><!-- /container -->
+<script src="js/polyfills.js"></script>
+<script src="js/modernizr-2.6.2.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -316,6 +304,7 @@
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
 <script src="js/scripts.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -344,7 +333,29 @@
             autoplay: true,
             autoplaySpeed: 1500,
         });
+
+        $('.ytvideos-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.ytvideos-nav',
+            autoplay: true,
+            infinite: true
+        });
+        $('.ytvideos-nav').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.ytvideos-for',
+            dots: false,
+            centerMode: true,
+            focusOnSelect: true
+
+        });
     });
+
+
 </script>
 <!--js files-->
 </body>

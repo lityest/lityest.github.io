@@ -39,10 +39,24 @@ html{
 
 .latest div img{
     width: 100%;
+    /*animation: zoom 1.5s ease-in-out infinite both;*/
+}
+
+@keyframes zoom {
+    from{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 @media (min-width: 900px) {
     .latest div img{
         width: 100%;
+        height: 100vh;
     }
 }
 .store div img{
@@ -81,10 +95,14 @@ footer{
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    transition: 0.4s;
+    transition: 0.2s;
+    cursor: pointer;
     filter:drop-shadow(0 0 10px black);
 }
-
+.productimg:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
 .productname{
     display: inline-block;
     text-align: center !important;
@@ -360,13 +378,23 @@ nav{
 /*}*/
 
 i:hover{
-    text-shadow: 0 0 10px #343a40;
+    /*text-shadow: 0 0 10px #343a40;*/
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+i{
+    transition: 0.2s;
 }
 .fa-github{
     color: black;
     font-size: 40px;
     padding: 10px;
 }
+/*.fa-youtube{*/
+/*    color: red;*/
+/*    font-size: 60px;*/
+/*    padding: 10px;*/
+/*}*/
 .fa-linkedin{
     color: #0e76a8;
     font-size: 40px;
@@ -438,7 +466,6 @@ footer{
     margin-left: auto;
     margin-right:auto;
     background-color: var(--appcontrast);
-
     /*border-top:10px solid var(--appcontrast);*/
     border-top-left-radius: 100%;
     border-bottom-left-radius: 30px;
@@ -448,6 +475,7 @@ footer{
     /*transform: skewY(-10deg);*/
     box-shadow: 0 0 10px black;
 }
+
 #copyright{
     text-align: right;
     color: var(--appback);

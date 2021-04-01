@@ -53,13 +53,13 @@ body{
     outline:none !important;
 }
 .mainheading{
-    font-size: 4vw;
+    font-size: 45px;
     font-family: fontitalic;
     color:var(--appwhite);
 }
 .mainheading span{
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 50px;
     font-family: fontbolditalic;
     color:var(--appwhite);
 }
@@ -124,7 +124,7 @@ nav{
 
 }
 .memberimg{
-    height:10vw;
+    height:100px;
     border-radius: 50%;
 }
 .membername{

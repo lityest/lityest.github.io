@@ -60,3 +60,17 @@ typewriter
     document.addEventListener('click', closeNav);
 })();
 
+var lityestapp = document.getElementById('lityesttype');
+
+var typewriterlityest = new Typewriter(lityestapp, {
+    loop: true,
+    delay: 20,
+    deleteSpeed: 3
+});
+
+typewriterlityest
+    .typeString('@lityest')
+    .pauseFor(2000)
+    .deleteChars(7)
+    .pauseFor(1000)
+    .start();

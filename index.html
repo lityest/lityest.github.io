@@ -8,7 +8,7 @@
     <title>Liyest</title>
     <meta name="description" content="We are lityest" />
     <meta name="keywords" content="css transforms, circular navigation, round navigation, circular menu, tutorial" />
-
+    <link rel="stylesheet" href="css/animista.css">
     <link rel="stylesheet" type="text/css" href="css/component1.css" />
 
 
@@ -24,7 +24,7 @@
     <style>
         /* width */
         ::-webkit-scrollbar {
-            width: 12px;
+            width: 20px;
         }
 
         /* Track */
@@ -35,13 +35,13 @@
 
         /* Handle */
         ::-webkit-scrollbar-thumb {
-            background: #a152fd;
+            background: var(--appcontrast);
             border-radius: 10px;
         }
 
         /* Handle on hover */
         ::-webkit-scrollbar-thumb:hover {
-            background: #a152fd;
+            background: var(--appcontrast);
         }
 
         .hidescroll::-webkit-scrollbar {
@@ -70,10 +70,16 @@
 </head>
 <body class="bg-dark" onload="loaderhide();">
 <div class="loader">
+    <div class="loadertext heartbeat">Lityest</div>
     <div class="lds-ripple">
         <div></div>
         <div></div>
     </div>
+
+</div>
+
+<div class="text-center">
+    <div id="brandlogo"></div>
 </div>
 
 <div class="latest">
@@ -96,6 +102,7 @@
         <img src="images/15.gif"/>
     </div>
 </div>
+
 <div class="container">
     <br>
     <br>
@@ -108,12 +115,12 @@
                 <div class="products">
                     <div style="margin-left: auto;margin-right: auto;"><img class="productimg" src="images/store/hoodie.png" alt=""></div>
                     <div class="text-center">
-                        <div class="productname">Shirt</div>
+                        <div class="productname">Lityest Grey Hoodie</div>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div style="position: relative;">
                         <div class="productcategory">MENS</div>
-                        <div class="productprice">300</div>
+                        <div class="productprice">&#8377;1599</div>
                     </div>
 
                 </div>
@@ -122,12 +129,12 @@
                 <div class="products">
                     <div style="margin-left: auto;margin-right: auto;"><img class="productimg" src="images/store/hoodiebrown.png" alt=""></div>
                     <div class="text-center">
-                        <div class="productname">Shirt</div>
+                        <div class="productname">Lityest Brown Hoodie</div>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div style="position: relative;">
                         <div class="productcategory">MENS</div>
-                        <div class="productprice">300</div>
+                        <div class="productprice">&#8377;1599</div>
                     </div>
 
                 </div>
@@ -136,12 +143,12 @@
                 <div class="products">
                     <div style="margin-left: auto;margin-right: auto;"><img class="productimg" src="images/store/tshirt%20grey.png" alt=""></div>
                     <div class="text-center">
-                        <div class="productname">Shirt</div>
+                        <div class="productname">Lityest T-Shirt</div>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div style="position: relative;">
                         <div class="productcategory">MENS</div>
-                        <div class="productprice">300</div>
+                        <div class="productprice">&#8377;700</div>
                     </div>
 
                 </div>
@@ -150,12 +157,16 @@
                 <div class="products">
                     <div style="margin-left: auto;margin-right: auto;"><img class="productimg" src="images/store/tshirtwhite.png" alt=""></div>
                     <div class="text-center">
-                        <div class="productname">Shirt</div>
+                        <div class="productname">Lityest White T-Shirt</div>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div style="position: relative;">
-                        <div class="productcategory">MENS</div>
-                        <div class="productprice">300</div>
+                        <table>
+                            <tr>
+                                <td><div class="productcategory">MENS</div></td>
+                                <td><div class="productprice">&#8377;799</div></td>
+                            </tr>
+                        </table>
                     </div>
 
                 </div>
@@ -164,49 +175,74 @@
                 <div class="products">
                     <div style="margin-left: auto;margin-right: auto;"><img class="productimg" src="images/store/tshirtblack.png" alt=""></div>
                     <div class="text-center">
-                        <div class="productname">Shirt</div>
+                        <div class="productname">Lityest Black T-Shirt</div>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div style="position: relative;">
                         <div class="productcategory">MENS</div>
-                        <div class="productprice">300</div>
+                        <div class="productprice">&#8377;899</div>
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
-
+</div>
     <br>
     <br>
     <div id="socialhandles">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="text-center">
-                    <img src="images/nature-4.jpg" alt="" class="seeworking socialhandles">
-                </div>
-            </div>
-            <div class="col-md-3">
-
-            </div>
-            <div class="col-md-3">
-
-            </div>
-            <div class="col-md-3">
-
-            </div>
+        <div class="text-center inboxheading" id="lityesttype">@</div>
+        <div class="text-center sicons">
+            <a target="_blank" href="https://github.com/lityest/"><i class="fab fa-2x fa-github"></i></a>
+            <a target="_blank" href="#"><i
+                    class="fab fa-2x fa-linkedin"></i></a>
+            <a target="_blank" href="https://twitter.com/lityest"><i class="fab fa-2x fa-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/lityest/"><i class="fab fa-2x fa-instagram"></i></a>
+            <a href="mailto:lityest@gmail.com"><i class="fa fa-2x fa-envelope"></i></a>
         </div>
     </div>
     <br>
     <br>
+<div class="container">
     <div id="youtubevideos">
         <div class="ytvideos-for">
-            <div><img src="images/thumbnail/getting%20started%20with%20github.jpg" alt="get started with git and github"></div>
-            <div><img src="images/thumbnail/learn%20git%20and%20github.jpg" alt="learn git and github"></div>
-            <div><img src="images/thumbnail/best%20ide.jpg" alt="best ide ?"></div>
-            <div><img src="images/thumbnail/ds%20vs%20dv.jpg" alt="ds vs dev"></div>
-            <div><img src="images/thumbnail/first%20programming%20lang.jpg" alt="first programming language"></div>
+
+            <div class="ytcontainer">
+                <img src="images/thumbnail/getting%20started%20with%20github.jpg" class="ytimage">
+                <div class="ytoverlay">
+                    <div class="ytlogo"><i class="fab fa-2x fa-youtube"></i></div>
+                </div>
+            </div>
+
+            <div class="ytcontainer">
+                <img src="images/thumbnail/learn%20git%20and%20github.jpg" class="ytimage">
+                <div class="ytoverlay">
+                    <div class="ytlogo"><i class="fab fa-2x fa-youtube"></i></div>
+                </div>
+            </div>
+
+            <div class="ytcontainer">
+                <img src="images/thumbnail/best%20ide.jpg" class="ytimage">
+                <div class="ytoverlay">
+                    <div class="ytlogo"><i class="fab fa-2x fa-youtube"></i></div>
+                </div>
+            </div>
+
+            <div class="ytcontainer">
+                <img src="images/thumbnail/ds%20vs%20dv.jpg" class="ytimage">
+                <div class="ytoverlay">
+                    <div class="ytlogo"><i class="fab fa-2x fa-youtube"></i></div>
+                </div>
+            </div>
+
+            <div class="ytcontainer">
+                <img src="images/thumbnail/first%20programming%20lang.jpg" class="ytimage">
+                <div class="ytoverlay">
+                    <div class="ytlogo"><i class="fab fa-2x fa-youtube"></i></div>
+                </div>
+            </div>
         </div>
+
         <div class="ytvideos-nav">
             <div><img src="images/thumbnail/getting%20started%20with%20github.jpg" alt="get started with git and github"></div>
             <div><img src="images/thumbnail/learn%20git%20and%20github.jpg" alt="learn git and github"></div>
@@ -217,50 +253,50 @@
     </div>
     <br>
     <br>
-    <div id="ourteam">
+    <div id="ourteam" data-aos="flip-up">
         <div class="text-center">
             <div class="mainheading"><span>O</span>ur <span>T</span>eam</div>
         </div>
         <div class="text-center">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="text-center">
                         <div class="member">
-                            <img class="memberimg" src="images/nature-4.jpg" alt="">
-                            <div class="membername">Namesdkskddskdj</div>
+                            <img class="memberimg " src="images/priyanshu.jpg" alt="Priyanshu">
+                            <div class="membername">Priyanshu Dhawan</div>
                             <div class="memberdesignation">Founder</div>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="text-center">
                         <div class="member">
-                            <img class="memberimg" src="images/nature-4.jpg" alt="">
-                            <div class="membername">Namesdkskddskdj</div>
-                            <div class="memberdesignation">Founder</div>
+                            <img class="memberimg" src="images/sairish.jpg" alt="Sairish">
+                            <div class="membername">Rajinderpal Singh</div>
+                            <div class="memberdesignation">Co-Founder</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="text-center">
                         <div class="member">
-                            <img class="memberimg" src="images/nature-4.jpg" alt="">
-                            <div class="membername">Namesdkskddskdj</div>
-                            <div class="memberdesignation">Founder</div>
+                            <img class="memberimg" src="images/divanshu.jpg" alt="Divanshu Sharma">
+                            <div class="membername">Divanshu Sharma</div>
+                            <div class="memberdesignation">Media Designer</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <br>
     <br>
+    <div class="dropdown-divider"></div>
     <div id="mailinglist">
-        <div class="text-center">
-            <div class="mainheading"><span>M</span>ailing <span>L</span>ist</div>
-        </div>
+<!--        <div class="text-center">-->
+<!--            <div class="mainheading"><span>M</span>ailing <span>L</span>ist</div>-->
+<!--        </div>-->
         <div class="text-center">
             <div class="text-center" style="color: var(--appwhite);">
                 KEEP UP TO DATE WITH OUR EVENTS
@@ -277,21 +313,28 @@
 
     <div class="component">
         <!-- Start Nav Structure -->
-        <button class="cn-button" id="cn-button">+</button>
+        <button class="cn-button slide-in-blurred-bottom" id="cn-button">+</button>
         <div class="cn-wrapper" id="cn-wrapper">
             <ul>
+                <li><a href="#socialhandles"><span class="fa fa-2x fa-mail-bulk"></span></a></li>
+                <li><a href="#youtubevideos"><span class="fab fa-2x fa-youtube"></span></a></li>
+
                 <li><a href="#"><span class="fa fa-house-user"></span></a></li>
-                <li><a href="#"><span class="icon-headphones"></span></a></li>
-                <li><a href="#"><span class="icon-home"></span></a></li>
-                <li><a href="#"><span class="icon-facetime-video"></span></a></li>
-                <li><a href="#"><span class="icon-envelope-alt"></span></a></li>
+
+                <li><a href="#ourteam"><span class="fas fa-2x fa-users"></span></a></li>
+                <li><a href="#store"><span class="fa fa-2x fa-store"></span></a></li>
             </ul>
         </div>
         <div id="cn-overlay" class="cn-overlay"></div>
         <!-- End Nav Structure -->
     </div>
 
-</div><!-- /container -->
+</div>
+<!-- Footer -->
+<footer>
+    <div id="copyright">&copy;Copyright Lityest,2021</div>
+</footer>
+<!-- Footer -->
 
 
 <script src="js/polyfills.js"></script>

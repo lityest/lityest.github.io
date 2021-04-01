@@ -34,11 +34,16 @@ html{
 }
 
 .latest {
-    width: 100%;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 30px !important;
+    filter: drop-shadow(0 0 20px black);
 }
 
 .latest div img{
     width: 100%;
+    border-radius: 30px !important;
     /*animation: zoom 1.5s ease-in-out infinite both;*/
 }
 

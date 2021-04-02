@@ -74,3 +74,19 @@ typewriterlityest
     .deleteChars(7)
     .pauseFor(1000)
     .start();
+
+
+
+    var appyoutube = document.querySelector('.ytdescription');
+
+    var typewriteryoutube = new Typewriter(appyoutube, {
+        loop: false,
+        delay: 30,
+        deleteSpeed: 2
+    });
+    
+    typewriteryoutube
+        .pauseFor(1000)
+        .typeString("<strong>Lityest brand</strong> as the name suggests depicts the inner fire in our community to grind for success. Its origin comes from persona<strong>LITY</strong> & inter<strong>EST</strong>. Its an initiative to help the society  by providing them educational content in entertainment form, which youth in this era love to consume . We aren't just Lit (also means excellent) we are  The LITYEST .So Bring that fire in you To be excellent and lets reach the peaks of success together.")
+        .start();
+    

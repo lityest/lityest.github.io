@@ -28,6 +28,9 @@ html,body{
 html{
     scroll-behavior: smooth;
 }
+.hidescroll{
+    overflow: hidden !important;
+}
 .store {
     width: 90%;
     margin: 0 auto;
@@ -138,7 +141,7 @@ footer{
     float: left;
     border-radius: 30px;
     font-family: fontitalic;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 .productoriginalprice{
     text-decoration: line-through;

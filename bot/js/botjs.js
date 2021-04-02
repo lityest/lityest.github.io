@@ -1,37 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
-        var sendername=prompt("What is your name?");
-        // var sendername="Sairish";
+function showhidebot(){
+    $('#chatbox').fadeToggle();
+}
         function send(inputid,outputid){
             var val=document.getElementById(inputid).value;
-            document.getElementById(outputid).innerHTML+=sendername+" : "+val+"<br>";
-            bot(val,outputid);
+            if(val!=''){
+                document.getElementById(outputid).innerHTML+="<span class='sender'>"+val+"</span><br>";
+                bot(val,outputid);
+            }
         }
+
         function bot(value,outputid){
             var botmessage="";
-            var bot="Lityest Bot : ";
             var inputs=[
                 ["Hi! How can I help?","hi","hello","help"],
                 ["To provide Education along with Entertainment","aim"],
                 ["lityest@gmail.com","email","contact","call","mail","reach","address","map"],
-            ]
+            ];
         
             for(j of inputs){
                 if(check(value,j)){
-                    botmessage+=bot+j[0]+"<br>";
+                    botmessage+="<span class='botsender'>"+j[0]+"</span><br><br>";
                     break;
                 }
             }
             if(botmessage==""){
-                botmessage+=bot+"Sorry! can't Understand"+"<br>";
+                botmessage+="<span class='botsender'>Sorry! can't Understand</span><br><br>";
             }
             document.getElementById(outputid).innerHTML+=botmessage;
+            document.getElementById(outputid).scrollTop = document.getElementById(outputid).scrollHeight;
+            document.getElementById("senderinput").value='';
         }
 
         function check(value,chkvalar){
@@ -44,16 +41,3 @@
             }
             return false;
         }
-    </script>
-</head>
-<body>
-
-    <div id="messagebox">
-                
-    </div>
-
-    <input type="text" id="senderinput">
-    <button type="button" onclick="send('senderinput','messagebox');">Send</button>
-
-</body>
-</html>

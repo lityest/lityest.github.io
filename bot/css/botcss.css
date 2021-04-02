@@ -1,0 +1,67 @@
+.chat{
+    background-color: #ffa7a7;
+    display: inline-block;
+    border-radius: 50%;
+    padding:10px;
+    position: fixed;
+    bottom:0;
+    right:0;
+    z-index:4;
+    margin:10px;
+    cursor:pointer;
+    box-shadow: 0 0 10px black;
+}
+.fa-comments{
+    font-size:30px;
+}
+.chatbox{
+    background-color: #ffa7a7;
+    height:300px;
+    width: 300px;
+    padding:20px;
+    border-radius: 30px;
+    z-index: 3;
+    display: inline-block;
+    position: fixed;
+    bottom:60px;
+    right:50px;
+    box-shadow: 0 0 10px black;
+    font-family: fontregular;
+
+}
+#senderinput{
+    position:fixed;
+    bottom:70px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+}
+#sendbtn{
+    position:fixed;
+    bottom:80px;
+    right:60px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+}
+#messagebox{
+    max-height: 200px;
+    overflow-y: auto;
+}
+#messagebox::-webkit-scrollbar {
+   display: none;
+}
+.sender{
+    background-color: white;
+    padding:6px;
+    border-radius: 10px;
+    position: inherit;
+    float: right;
+}
+.botsender{
+    background-color:black;
+    color:white;
+    white-space: nowrap;
+    padding:6px;
+    border-radius: 10px;
+}

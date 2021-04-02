@@ -408,47 +408,47 @@ nav{
 /*    color: var(--appwhite);*/
 /*}*/
 
-i:hover{
+.fa-envelope:hover,.fa-github:hover,.fa-linkedin:hover,.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover{
     /*text-shadow: 0 0 10px #343a40;*/
     transform: scale(1.2);
     transition: 0.2s;
 }
-i{
-    transition: 0.2s;
-}
+
 .fa-github{
     color: black;
     font-size: 40px;
+    transition: 0.2s;
     padding: 10px;
 }
-/*.fa-youtube{*/
-/*    color: red;*/
-/*    font-size: 60px;*/
-/*    padding: 10px;*/
-/*}*/
+
 .fa-linkedin{
     color: #0e76a8;
     font-size: 40px;
     padding: 10px;
+    transition: 0.2s;
 }
 .fa-facebook{
     color:#3b5998;
     font-size: 40px;
+    transition: 0.2s;
     padding: 10px;
 }
 .fa-instagram{
     color:#8a3ab9;
     font-size: 40px;
     padding: 10px;
+    transition: 0.2s;
 }
 .fa-twitter{
     color:#00acee;
+    transition: 0.2s;
     font-size: 40px;
     padding: 10px;
 }
 .fa-envelope{
     color:#ff5555;
     font-size: 40px;
+    transition: 0.2s;
     padding: 10px;
 }
 @media (min-width: 700px) {

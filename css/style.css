@@ -512,3 +512,46 @@ footer{
     padding-right: 20px;
     padding-top: 20px;
 }
+.ytsubscribe{
+    margin-top:20px;
+    padding: 10px;
+    background-color: var(--appwhite);
+    border-radius: 50px;
+    width: 100%;
+}
+.channelimg{
+    border-radius: 50%;
+    height:50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border:1px solid var(--appback);
+}
+.channelname{
+    color:var(--appback);
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: fontbold;
+    padding-left:10px;
+}
+.subscribebutton{
+    padding-top:12px;
+    position: relative;
+    padding-right: 20px;
+    float: right;
+}
+.fa-bell{
+    position: relative;
+    float: right;
+    padding-top: 16px;
+    padding-right:10px; 
+    cursor:pointer;
+}
+.ytdescription{
+    margin-top: 20px;
+    background:var(--appwhite);
+    width:100%;
+    border-radius: 30px;
+    font-family: fontregular;
+    padding:20px;
+    word-wrap: break-word;
+}

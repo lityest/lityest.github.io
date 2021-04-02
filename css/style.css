@@ -92,6 +92,7 @@ footer{
 .products{
     display: block;
     margin:10px;
+    width: auto;
 }
 .productimg{
     display: block;
@@ -112,7 +113,8 @@ footer{
     display: inline-block;
     text-align: center !important;
     color: var(--appwhite);
-    font-family: fontregular;
+    padding-top: 20px;
+    font-family: fontbold;
 }
 .productprice{
     white-space: nowrap;
@@ -122,24 +124,35 @@ footer{
     position: relative;
     float: right;
     font-family: fontbold;
-    font-size: 15px;
+    font-size: 3vw;
 }
-.productcategory{
+.productoffer{
     white-space: nowrap;
-    padding-left: 10px;
+    padding:10px;
+    z-index:3;
+    background-color: var(--appcontrast);
     display: inline-block;
     color: var(--appwhite);
-    position: relative;
+    position: absolute;
+    color:var(--appback);
     float: left;
-    font-family: fontbold;
-    font-size: 15px;
+    border-radius: 30px;
+    font-family: fontitalic;
+    font-size: 3vw;
 }
-@media (max-width:500px ) {
+.productoriginalprice{
+    text-decoration: line-through;
+    color:grey;
+    font-size:2vw;
+    padding-right: 3px;
+    font-family: fontregular;
+}
+@media (min-width:600px ) {
     .productprice{
-        font-size: 10px;
+        font-size: 2vw;
     }
-    .productcategory{
-        font-size: 10px;
+    .productoriginalprice{
+        font-size: 1vw;;
     }
 }
 a{

@@ -13,7 +13,14 @@ function showhidebot(){
             var botmessage="";
             var inputs=[
                 ["Hi! How can I help?","hi","hello","help"],
+                ["we aren't lit we are lityest","tagline"],
+                ["founders are Priyanshu  and Rajinder","founder" ],
+                ["team members are Priyanshu,Rajinder and Divyanshu","team","members"],
+                ["code of website was written by Priyanshu and Rajinder ","coder","coders"],
+                ["media was designed by Divyanshu and Priyanshu","designer","designers"],
                 ["To provide Education along with Entertainment","aim"],
+                ["Hi boss","priyanshu","rajinder","divyanshu"],
+                ["yes its me","lityest","bot"],
                 ["lityest@gmail.com","email","contact","call","mail","reach","address","map"],
             ];
         

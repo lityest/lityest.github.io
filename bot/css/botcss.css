@@ -32,6 +32,7 @@
 #senderinput{
     position:fixed;
     bottom:70px;
+    width:225px !important;
     border-radius: 30px;
     background-color: white;
     color: black;
@@ -61,7 +62,7 @@
 .botsender{
     background-color:black;
     color:white;
-    white-space: nowrap;
-    padding:6px;
-    border-radius: 10px;
+    white-space: initial;
+    padding:2px;
+    border-radius: 8px;
 }

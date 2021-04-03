@@ -58,11 +58,38 @@
     border-radius: 10px;
     position: inherit;
     float: right;
+
+    /* animation-name: sendercome;
+    animation-duration: 1s; */
 }
+
 .botsender{
     background-color:black;
     color:white;
     white-space: initial;
-    padding:2px;
+    padding:6px;
     border-radius: 8px;
+    animation-name: botsendercome;
+    position: inherit;
+    float: left;
+    /* animation-delay: 1s;
+    animation-duration: 1s; */
+}
+
+/* @keyframes botsendercome {
+    from{
+        transform: translateX(-100px);
+     }
+}
+@keyframes sendercome {
+    from{
+        transform: translateX(100px);
+     }
+} */
+.speechlogo{
+    position: fixed;
+    bottom:86px;
+    right:116px;
+    height: 25px;
+    cursor:pointer;
 }

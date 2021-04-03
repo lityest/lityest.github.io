@@ -71,7 +71,6 @@
 
     </script>
     <link rel="stylesheet" href="bot/css/botcss.css">
-    <script src="bot/js/botjs.js"></script>
 </head>
 <body class="bg-dark hidescroll" onload="loaderhide();">
 
@@ -93,6 +92,7 @@
     </div>
 
     <input type="text" id="senderinput" class="form-control" placeholder="Type a Message">
+    <span onclick="runSpeechRecognition('senderinput','speechlogo')"><img src="images/speechlogo.png" id="speechlogo" class="speechlogo" alt="speech"></span>
     <button id="sendbtn" class="btn btn-light" type="button" onclick="send('senderinput','messagebox');"><i class="fas fa-chevron-right"></i></button>
 </div>
 
@@ -328,10 +328,10 @@
     <br>
     <br>
     <div class="dropdown-divider"></div>
+    <br>
+    <br>
     <div id="mailinglist">
-        <!--        <div class="text-center">-->
-        <!--            <div class="mainheading"><span>M</span>ailing <span>L</span>ist</div>-->
-        <!--        </div>-->
+    
         <div class="text-center slideanim">
             <div class="text-center" style="color: var(--appwhite);">
                 KEEP UP TO DATE WITH OUR EVENTS
@@ -370,7 +370,7 @@
 </footer>
 <!-- Footer -->
 
-
+<script src="js/speechreco.js"></script>
 <script src="js/polyfills.js"></script>
 <script src="js/modernizr-2.6.2.min.js"></script>
 <script src="js/jquery-3.4.1.min.js"></script>
@@ -431,6 +431,8 @@
 
 
 </script>
+<script src="bot/js/botjs.js"></script>
+
 <!--js files-->
 </body>
 </html>

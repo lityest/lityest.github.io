@@ -19,8 +19,8 @@ function bot(value, outputid) {
     var botmessage = "";
     var inputs = [
         ["Hi! How can I help?", "hi", "hello", "help"],
-        ["we aren't lit we are lityest", "tagline"],
-        ["founders are Priyanshu  and Rajinder", "founder"],
+        ["We aren't lit we are Lityest", "tagline"],
+        ["Founders are Priyanshu  and Rajinderpal", "founder","founders","head"],
         ["Team members are Priyanshu,Rajinderpal and Divanshu", "team", "members","creator"],
         ["Coded by Priyanshu and Rajinderpal ", "coder", "coders","programmer"],
         ["Media was designed by Divanshu and Priyanshu", "designer", "designers"],

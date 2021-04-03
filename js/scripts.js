@@ -47,13 +47,17 @@ typewriter
     }
     function openNav(){
         open = true;
-        button.innerHTML = "-";
+        document.querySelector('.fa-bars').style.fontSize="1em";
+        document.querySelector('.fa-bars').style.color="#fff";
+        document.querySelector('.cn-button').style.backgroundColor="#343a40";
         classie.add(overlay, 'on-overlay');
         classie.add(wrapper, 'opened-nav');
     }
     function closeNav(){
         open = false;
-        button.innerHTML = "+";
+        document.querySelector('.fa-bars').style.fontSize="1em";
+        document.querySelector('.fa-bars').style.color="black";
+        document.querySelector('.cn-button').style.backgroundColor="#fff";
         classie.remove(overlay, 'on-overlay');
         classie.remove(wrapper, 'opened-nav');
     }

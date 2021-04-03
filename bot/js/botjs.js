@@ -16,7 +16,7 @@ function send(inputid, outputid) {
 }
 
 function bot(value, outputid) {
-    var botmessage = "";
+    var botmessage = "lityest helper <br> ";
     var inputs = [
         ["Hi! How can I help?", "hi", "hello", "help"],
         ["We aren't lit we are Lityest", "tagline"],
@@ -25,7 +25,7 @@ function bot(value, outputid) {
         ["Coded by Priyanshu and Rajinderpal ", "coder", "coders","programmer"],
         ["Media was designed by Divanshu and Priyanshu", "designer", "designers"],
         ["To provide Education along with Entertainment", "aim"],
-        ["Hi boss", "Priyanshu", "rajinderpal", "divanshu","sairish"],
+        ["Hi boss", "priyanshu","priyanshuthe1", "rajinderpal", "divanshu","sairish"],
         ["Yes it's me", "lityest", "bot","name"],
         ["<a href='mailto:lityest@gmail.com'>lityest@gmail.com</a>", "email", "contact", "call", "mail", "reach", "address", "map"],
     ];
@@ -36,7 +36,7 @@ function bot(value, outputid) {
             break;
         }
     }
-    if (botmessage == "") {
+    if (botmessage == "lityest helper <br> ") {
         botmessage += "<span class='botsender'>Sorry! can't Understand</span><br><br>";
     }
     document.getElementById(outputid).innerHTML += botmessage;

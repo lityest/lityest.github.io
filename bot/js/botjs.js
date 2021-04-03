@@ -16,7 +16,7 @@ function send(inputid, outputid) {
 }
 
 function bot(value, outputid) {
-    var botmessage = "hi! am lityest's chat helper";
+    var botmessage = "";
     var inputs = [
         ["Hi! How can I help?", "hi", "hello", "help"],
         ["We aren't lit we are Lityest", "tagline"],

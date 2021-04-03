@@ -21,13 +21,13 @@ function bot(value, outputid) {
         ["Hi! How can I help?", "hi", "hello", "help"],
         ["we aren't lit we are lityest", "tagline"],
         ["founders are Priyanshu  and Rajinder", "founder"],
-        ["team members are Priyanshu,Rajinder and Divyanshu", "team", "members"],
-        ["code of website was written by Priyanshu and Rajinder ", "coder", "coders"],
-        ["media was designed by Divyanshu and Priyanshu", "designer", "designers"],
+        ["Team members are Priyanshu,Rajinderpal and Divanshu", "team", "members","creator"],
+        ["Coded by Priyanshu and Rajinderpal ", "coder", "coders","programmer"],
+        ["Media was designed by Divanshu and Priyanshu", "designer", "designers"],
         ["To provide Education along with Entertainment", "aim"],
-        ["Hi boss", "priyanshu", "rajinder", "divyanshu"],
-        ["yes its me", "lityest", "bot"],
-        ["lityest@gmail.com", "email", "contact", "call", "mail", "reach", "address", "map"],
+        ["Hi boss", "Priyanshu", "rajinderpal", "divanshu","sairish"],
+        ["Yes it's me", "lityest", "bot","name"],
+        ["<a href='mailto:lityest@gmail.com'>lityest@gmail.com</a>", "email", "contact", "call", "mail", "reach", "address", "map"],
     ];
 
     for (j of inputs) {

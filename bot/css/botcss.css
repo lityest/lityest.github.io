@@ -72,8 +72,12 @@
     animation-name: botsendercome;
     position: inherit;
     float: left;
+    text-decoration: none;
     /* animation-delay: 1s;
     animation-duration: 1s; */
+}
+.botsender:hover a{
+    color: white !important;
 }
 
 /* @keyframes botsendercome {

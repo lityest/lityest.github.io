@@ -16,7 +16,7 @@ function send(inputid, outputid) {
 }
 
 function bot(value, outputid) {
-    var botmessage = "lityest helper <br> ";
+    var botmessage = "lityest coustomer helper <br> ";
     var inputs = [
         ["Hi! How can I help?", "hi", "hello", "help"],
         ["We aren't lit we are Lityest", "tagline"],
@@ -24,13 +24,15 @@ function bot(value, outputid) {
         ["Team members are Priyanshu,Rajinderpal and Divanshu", "team", "members","creator"],
         ["Coded by Priyanshu and Rajinderpal ", "coder", "coders","programmer"],
         ["Media was designed by Divanshu and Priyanshu", "designer", "designers"],
-        ["To provide Education along with Entertainment", "aim"],
+        ["To provide Education along with Entertainment", "aim","target"],
         ["here we go !!","start"],
+        ["Welcome","thank"]
         ["i did that question today ......20 ","10+10"],
         ["say hi , ask about coders , ask my aim . Start a conversation","what"],
         ["Hi boss", "priyanshu","priyanshuthe1", "rajinderpal", "divanshu","sairish"],
-        ["Yes it's me", "lityest", "bot","name"],
-        ["<a href='mailto:lityest@gmail.com'>lityest@gmail.com</a>", "email", "contact", "call", "mail", "reach", "address", "map"],
+        ["Yes it's me", "lityest", "bot","name", "you"],
+        ["Have a nice day","bye"]
+        ["<a href='mailto:lityest@gmail.com'>lityest@gmail.com</a>", "email", "contact", "call", "mail", "reach", "address", "map", "help"],
     ];
 
     for (j of inputs) {

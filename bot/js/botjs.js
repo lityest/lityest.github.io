@@ -19,7 +19,7 @@ function bot(value, outputid) {
     var botmessage = "lityest helper <br> ";
     var inputs = [
         ["Hi! How can I help?", "hi", "hello"],
-        ["Did I forgot to introduce myself?<br> I am lityest helper", "whats your name"],
+        ["Did I forgot to introduce myself?<br> I am lityest helper", "name"],
         ["We aren't lit we are Lityest", "tagline"],
         ["Founders are Priyanshu  and Rajinderpal", "founder","founders","head"],
         ["Team members are Priyanshu,Rajinderpal and Divanshu", "team", "members","creator"],
@@ -33,7 +33,7 @@ function bot(value, outputid) {
         ["i did that question today ......20 ","10+10"],
         ["say hi , ask about coders , ask my aim . Start a conversation","what"],
         ["Hi boss", "priyanshu","priyanshuthe1", "rajinderpal", "divanshu","sairish"],
-        ["Yes it's me, lityest", "lityest", "bot","name", "you"],
+        ["Yes it's me, lityest", "lityest", "bot","you"],
         ["Have a nice day", "bye"],
         ["<a href='mailto:lityest@gmail.com'>lityest@gmail.com</a>", "email", "contact", "call", "mail", "reach", "address", "map", "helpline"],
     ];

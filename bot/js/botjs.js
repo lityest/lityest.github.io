@@ -27,15 +27,15 @@ function bot(value, outputid) {
         ["Media was designed by Divanshu and Priyanshu", "designer", "designers"],
         ["To provide Education along with Entertainment", "aim","target"],
         ["here we go !!","start"],
-        ["Happy to help", "good"],
-        ["I don't have a gender", "gender"],
+        ["Happy to help", "good", "nice"],
+        ["I don't have a gender", "gender","male or female"],
         ["Welcome", "thank you"],
         ["i did that question today ......20 ","10+10"],
         ["say hi , ask about coders , ask my aim . Start a conversation","what"],
         ["Hi boss", "priyanshu","priyanshuthe1", "rajinderpal", "divanshu","sairish"],
         ["Yes it's me, lityest", "lityest", "bot","name", "you"],
         ["Have a nice day", "bye"],
-        ["<a href='mailto:lityest@gmail.com'>lityest@gmail.com</a>", "email", "contact", "call", "mail", "reach", "address", "map", "help"],
+        ["<a href='mailto:lityest@gmail.com'>lityest@gmail.com</a>", "email", "contact", "call", "mail", "reach", "address", "map", "helpline"],
     ];
 
     for (j of inputs) {

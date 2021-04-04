@@ -26,12 +26,12 @@ function bot(value, outputid) {
         ["Media was designed by Divanshu and Priyanshu", "designer", "designers"],
         ["To provide Education along with Entertainment", "aim","target"],
         ["here we go !!","start"],
-        ["Welcome","thank"]
+        ["Welcome", "thank"],
         ["i did that question today ......20 ","10+10"],
         ["say hi , ask about coders , ask my aim . Start a conversation","what"],
         ["Hi boss", "priyanshu","priyanshuthe1", "rajinderpal", "divanshu","sairish"],
         ["Yes it's me", "lityest", "bot","name", "you"],
-        ["Have a nice day","bye"]
+        ["Have a nice day", "bye"],
         ["<a href='mailto:lityest@gmail.com'>lityest@gmail.com</a>", "email", "contact", "call", "mail", "reach", "address", "map", "help"],
     ];
 

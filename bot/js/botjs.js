@@ -33,7 +33,7 @@ function bot(value, outputid) {
         ["i did that question today ......20 ","10+10"],
         ["say hi , ask about coders , ask my aim . Start a conversation","what"],
         ["Hi boss", "priyanshu","priyanshuthe1", "rajinderpal", "divanshu","sairish"],
-        ["Yes it's me, lityest", "lityest", "bot","you"],
+        ["Yes it's me, lityest", "lityest", "bot"],
         ["Have a nice day", "bye"],
         ["<a href='mailto:lityest@gmail.com'>lityest@gmail.com</a>", "email", "contact", "call", "mail", "reach", "address", "map", "helpline"],
     ];
